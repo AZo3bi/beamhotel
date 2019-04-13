@@ -12,7 +12,7 @@ import com.beam.entity.CrazyHotelResponse;
 public class CrazyHotelDAO {
 
 	private static Map<Integer, CrazyHotelResponse> crazyHotelsResponse;
-	static String[] s1 = {"Hakona,Matata"};
+	static String[] s1 = {"Hakona","Matata"};
 	static {
 		
 		crazyHotelsResponse = new HashMap<Integer, CrazyHotelResponse>(){
